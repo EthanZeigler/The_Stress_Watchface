@@ -1,0 +1,26 @@
+{
+  "name": "The Stress Watchface",
+  "author": "Ethan Zeigler",
+  "version": "0.1",
+  "keywords": ["pebble-app"],
+  "private": true,
+  "dependencies": {},
+  "pebble": {
+    "displayName": "The Stress Watchface",
+    "uuid": "d843eadf-9cf3-4864-82e3-7f914a71b342",
+    "sdkVersion": "3",
+    "enableMultiJS": true,
+    "targetPlatforms": [
+      "diorite"
+    ],
+    "watchapp": {
+      "watchface": true
+    },
+    "messageKeys": [
+      "dummy"
+    ],
+    "resources": {
+      "media": []
+    }
+  }
+}
